@@ -1,13 +1,13 @@
 ---
-name: nextjs-component
-description: Next.js の App Router 向けコンポーネントを生成する。
-  Server/Client Component の使い分け、Tailwind CSS、TypeScript を考慮。
+name: react-element
+description: React の Element やライフサイクル、ライブラリについての実装。
+  Tailwind CSS、TypeScript を考慮。
 ---
 
 ## ルール
+
 - TypeScript を使用する
 - Tailwind CSS を使用する
-- デフォルトは 'use client' で React の hook が使用できる実装とする
 - 入力のバリデーションは zod を使用する
 
 - tanstack

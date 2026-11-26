@@ -10,8 +10,11 @@
 ## コミュニケーション
 - 日本語で行う
 
-## 責務分割
-- 状態・処理・判定・コメントの置き場所は `.agents/skills/responsibility-split/SKILL.md` の規約に従う。
+## 置き場所
+- 状態・処理・判定・コメントをどの関数・コンポーネント・ファイルに置くかは `.agents/skills/responsibility-split/SKILL.md` の規約に従う。
+
+## 分岐
+- 関数・型・引数の形を決めるとき、分岐を書くときは `.agents/skills/no-unnecessary-branches/SKILL.md` の規約に従う。
 
 ## unit test
 - jest の単体テストの実装は `.agents/skills/jest/SKILL.md` の規約に従う。
